@@ -1,0 +1,707 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Ample Homes | Find Your Perfect Space</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/png" href="images/favicon.png" />
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="container nav-container">
+        <a href="#home" class="logo">
+          <img src="images/logo.png" alt="Ample Homes" />
+        </a>
+
+        <nav class="nav" id="nav">
+          <a href="#home">Home</a>
+          <a href="#properties">Properties</a>
+          <a href="#about">About</a>
+          <a href="#contact">Contact</a>
+        </nav>
+
+        <a href="#contact" class="nav-btn"> Get in Touch </a>
+
+        <button class="hamburger" id="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </header>
+
+    <main>
+      <!-- hero -->
+      <section class="hero" id="home">
+        <div class="hero-overlay"></div>
+
+        <div class="container hero-content">
+          <span class="hero-tag">
+            <i class="fa-solid fa-house"></i>
+            Your next home starts here
+          </span>
+
+          <h1>
+            Find a Place You’ll
+            <span>Love to Call Home.</span>
+          </h1>
+
+          <p>
+            Discover carefully selected properties in desirable locations,
+            designed to match your lifestyle, comfort and investment goals.
+          </p>
+
+          <div class="hero-buttons">
+            <a href="#properties" class="btn primary-btn">
+              Explore Properties
+              <i class="fa-solid fa-arrow-right"></i>
+            </a>
+
+            <a href="#contact" class="btn outline-btn"> Talk to Us </a>
+          </div>
+        </div>
+
+        <div class="hero-bottom">
+          <div class="container hero-stats">
+            <div>
+              <strong>50+</strong>
+              <span>Properties</span>
+            </div>
+
+            <div>
+              <strong>10+</strong>
+              <span>Locations</span>
+            </div>
+
+            <div>
+              <strong>100%</strong>
+              <span>Client Focused</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- properties -->
+      <section class="properties section" id="properties">
+        <div class="container">
+          <div class="section-heading">
+            <div>
+              <span class="section-label">Our Properties</span>
+
+              <h2>
+                Explore Our
+                <span>Available Spaces</span>
+              </h2>
+            </div>
+
+            <p>
+              Browse through our selection of properties and find a space that
+              feels right for you.
+            </p>
+          </div>
+
+          <div class="property-grid">
+            <!-- PROPERTY 1 -->
+            <article
+              class="property-card"
+              data-title="Maple Residence 1"
+              data-location="Life Camp, Abuja"
+              data-images="images/mr1-1.jpg,images/mr1-2.jpg,images/mr1-3.jpg,images/mr1-4.jpg,images/mr1-5.jpg"
+            >
+              <div class="property-image">
+                <img src="images/MR1-5.jpg" alt="Maple Residence 1" />
+
+                <!-- <span class="property-status">Available</span> -->
+
+                <button class="photo-btn">
+                  <i class="fa-solid fa-images"></i>
+                  View Photos
+                </button>
+              </div>
+
+              <div class="property-info">
+                <span class="property-type">sold</span>
+
+                <h3>Maple Residence 1</h3>
+
+                <p class="location">
+                  <i class="fa-solid fa-location-dot"></i>
+                  Life Camp, Abuja
+                </p>
+
+                <div class="property-details">
+                  <span>
+                    <i class="fa-solid fa-bed"></i>
+                    4 Beds
+                  </span>
+
+                  <span>
+                    <i class="fa-solid fa-bath"></i>
+                    4 Baths
+                  </span>
+
+                  <span>
+                    <i class="fa-solid fa-toilet"></i>
+                    5 Toilets
+                  </span>
+                </div>
+              </div>
+            </article>
+
+            <!-- PROPERTY 2 -->
+            <article
+              class="property-card"
+              data-title="Maple Residence 2"
+              data-location="Life Camp, Abuja"
+              data-images="images/mr2-1.jpg,images/mr2-2.jpg,images/mr2-3.jpg,images/mr2-4.jpg"
+            >
+              <div class="property-image">
+                <img src="images/MR2-3.jpg" alt="Maple Residence 2" />
+
+                <!-- <span class="property-status">Available</span> -->
+
+                <button class="photo-btn">
+                  <i class="fa-solid fa-images"></i>
+                  View Photos
+                </button>
+              </div>
+
+              <div class="property-info">
+                <span class="property-type">For Sale</span>
+
+                <h3>Maple Residence 2</h3>
+
+                <p class="location">
+                  <i class="fa-solid fa-location-dot"></i>
+                  Life Camp, Abuja
+                </p>
+
+                <div class="property-details">
+                  <span><i class="fa-solid fa-bed"></i> 5 Beds</span>
+                  <span><i class="fa-solid fa-bath"></i> 5 Baths</span>
+                  <span><i class="fa-solid fa-toilet"></i> 6 Toilets</span>
+                </div>
+              </div>
+            </article>
+
+            <!-- PROPERTY 3 -->
+            <article
+              class="property-card"
+              data-title="Maple Residence 3"
+              data-location="Life Camp, Abuja"
+              data-images="images/property3.jpg,images/property3-2.jpg,images/property3-3.jpg"
+            >
+              <div class="property-image">
+                <img src="images/property3.jpg" alt="Maple Residence 3" />
+
+                <!-- <span class="property-status">Available</span> -->
+
+                <button class="photo-btn">
+                  <i class="fa-solid fa-images"></i>
+                  View Photos
+                </button>
+              </div>
+
+              <div class="property-info">
+                <span class="property-type">For Sale</span>
+
+                <h3>Maple Residence 3</h3>
+
+                <p class="location">
+                  <i class="fa-solid fa-location-dot"></i>
+                  Life Camp, Abuja
+                </p>
+
+                <div class="property-details">
+                  <span><i class="fa-solid fa-bed"></i> 6 Beds</span>
+                  <span><i class="fa-solid fa-bath"></i> 6 Baths</span>
+                  <span><i class="fa-solid fa-toilet"></i> 7 Toilets</span>
+                </div>
+              </div>
+            </article>
+
+            <!-- PROPERTY 4 -->
+            <article
+              class="property-card"
+              data-title="OakVille Estate"
+              data-location="Life Camp, Abuja"
+              data-images="images/property4.jpg,images/property4-2.jpg,images/property4-3.jpg"
+            >
+              <div class="property-image">
+                <img src="images/property4.jpg" alt="OakVille Estate" />
+
+                <!-- <span class="property-status">Available</span> -->
+
+                <button class="photo-btn">
+                  <i class="fa-solid fa-images"></i>
+                  View Photos
+                </button>
+              </div>
+
+              <div class="property-info">
+                <span class="property-type">For Sale</span>
+
+                <h3>OakVille Estate</h3>
+
+                <p class="location">
+                  <i class="fa-solid fa-location-dot"></i>
+                  Life Camp, Abuja
+                </p>
+
+                <div class="property-details">
+                  <span><i class="fa-solid fa-bed"></i> 4 Beds</span>
+                  <span><i class="fa-solid fa-bath"></i> 4 Baths</span>
+                  <span><i class="fa-solid fa-toilet"></i> 5 Toilets</span>
+                </div>
+              </div>
+            </article>
+
+            <!-- PROPERTY 5 -->
+            <article
+              class="property-card"
+              data-title="Hilltop Residence"
+              data-location="Asokoro, Abuja"
+              data-images="images/property5.jpg,images/property5-2.jpg,images/property5-3.jpg"
+            >
+              <div class="property-image">
+                <img src="images/property5.jpg" alt="Hilltop Residence" />
+
+                <!-- <span class="property-status">Available</span> -->
+
+                <button class="photo-btn">
+                  <i class="fa-solid fa-images"></i>
+                  View Photos
+                </button>
+              </div>
+
+              <div class="property-info">
+                <span class="property-type">For Sale</span>
+
+                <h3>Hilltop Residence</h3>
+
+                <p class="location">
+                  <i class="fa-solid fa-location-dot"></i>
+                  Asokoro, Abuja
+                </p>
+
+                <div class="property-details">
+                  <span><i class="fa-solid fa-bed"></i> 5 Beds</span>
+                  <span><i class="fa-solid fa-bath"></i> 5 Baths</span>
+                  <span><i class="fa-solid fa-toilet"></i> 6 Toilets</span>
+                </div>
+              </div>
+            </article>
+
+            <!-- PROPERTY 6 -->
+            <article
+              class="property-card"
+              data-title="Lakeview Homes"
+              data-location="Wuse 2, Abuja"
+              data-images="images/property6.jpg,images/property6-2.jpg,images/property6-3.jpg"
+            >
+              <div class="property-image">
+                <img src="images/property6.jpg" alt="Lakeview Homes" />
+
+                <!-- <span class="property-status">Available</span> -->
+
+                <button class="photo-btn">
+                  <i class="fa-solid fa-images"></i>
+                  View Photos
+                </button>
+              </div>
+
+              <div class="property-info">
+                <span class="property-type">For Sale</span>
+
+                <h3>Lakeview Homes</h3>
+
+                <p class="location">
+                  <i class="fa-solid fa-location-dot"></i>
+                  Wuse 2, Abuja
+                </p>
+
+                <div class="property-details">
+                  <span><i class="fa-solid fa-bed"></i> 4 Beds</span>
+                  <span><i class="fa-solid fa-bath"></i> 4 Baths</span>
+                  <span><i class="fa-solid fa-toilet"></i> 5 Toilets</span>
+                </div>
+              </div>
+            </article>
+
+            <!-- PROPERTY 7 -->
+            <article
+              class="property-card"
+              data-title="Cedar Park"
+              data-location="Lugbe, Abuja"
+              data-images="images/property7.jpg,images/property7-2.jpg,images/property7-3.jpg"
+            >
+              <div class="property-image">
+                <img src="images/property7.jpg" alt="Cedar Park" />
+
+                <!-- <span class="property-status">Available</span> -->
+
+                <button class="photo-btn">
+                  <i class="fa-solid fa-images"></i>
+                  View Photos
+                </button>
+              </div>
+
+              <div class="property-info">
+                <span class="property-type">For Sale</span>
+
+                <h3>Cedar Park</h3>
+
+                <p class="location">
+                  <i class="fa-solid fa-location-dot"></i>
+                  Lugbe, Abuja
+                </p>
+
+                <div class="property-details">
+                  <span><i class="fa-solid fa-bed"></i> 3 Beds</span>
+                  <span><i class="fa-solid fa-bath"></i> 3 Baths</span>
+                  <span><i class="fa-solid fa-toilet"></i> 4 Toilets</span>
+                </div>
+              </div>
+            </article>
+
+            <!-- PROPERTY 8 -->
+            <article
+              class="property-card"
+              data-title="The Grand Residence"
+              data-location="Guzape, Abuja"
+              data-images="images/property8.jpg,images/property8-2.jpg,images/property8-3.jpg"
+            >
+              <div class="property-image">
+                <img src="images/property8.jpg" alt="The Grand Residence" />
+
+                <!-- <span class="property-status">Available</span> -->
+
+                <button class="photo-btn">
+                  <i class="fa-solid fa-images"></i>
+                  View Photos
+                </button>
+              </div>
+
+              <div class="property-info">
+                <span class="property-type">For Sale</span>
+
+                <h3>The Grand Residence</h3>
+
+                <p class="location">
+                  <i class="fa-solid fa-location-dot"></i>
+                  Guzape, Abuja
+                </p>
+
+                <div class="property-details">
+                  <span><i class="fa-solid fa-bed"></i> 6 Beds</span>
+                  <span><i class="fa-solid fa-bath"></i> 6 Baths</span>
+                  <span><i class="fa-solid fa-toilet"></i> 7 Toilets</span>
+                </div>
+              </div>
+            </article>
+
+            <!-- PROPERTY 9 -->
+            <article
+              class="property-card"
+              data-title="Maple Court"
+              data-location="Life Camp, Abuja"
+              data-images="images/property9.jpg,images/property9-2.jpg,images/property9-3.jpg"
+            >
+              <div class="property-image">
+                <img src="images/property9.jpg" alt="Maple Court" />
+
+                <!-- <span class="property-status">Available</span> -->
+
+                <button class="photo-btn">
+                  <i class="fa-solid fa-images"></i>
+                  View Photos
+                </button>
+              </div>
+
+              <div class="property-info">
+                <span class="property-type">For Sale</span>
+
+                <h3>Maple Court</h3>
+
+                <p class="location">
+                  <i class="fa-solid fa-location-dot"></i>
+                  Life Camp, Abuja
+                </p>
+
+                <div class="property-details">
+                  <span><i class="fa-solid fa-bed"></i> 4 Beds</span>
+                  <span><i class="fa-solid fa-bath"></i> 4 Baths</span>
+                  <span><i class="fa-solid fa-toilet"></i> 5 Toilets</span>
+                </div>
+              </div>
+            </article>
+
+            <!-- PROPERTY 10 -->
+            <article
+              class="property-card"
+              data-title="Silver Oak Estate"
+              data-location="Karsana, Abuja"
+              data-images="images/property10.jpg,images/property10-2.jpg,images/property10-3.jpg"
+            >
+              <div class="property-image">
+                <img src="images/property10.jpg" alt="Silver Oak Estate" />
+
+                <!-- <span class="property-status">Ava ilable</span> -->
+
+                <button class="photo-btn">
+                  <i class="fa-solid fa-images"></i>
+                  View Photos
+                </button>
+              </div>
+
+              <div class="property-info">
+                <span class="property-type">For Sale</span>
+
+                <h3>Silver Oak Estate</h3>
+
+                <p class="location">
+                  <i class="fa-solid fa-location-dot"></i>
+                  Karsana, Abuja
+                </p>
+
+                <div class="property-details">
+                  <span><i class="fa-solid fa-bed"></i> 4 Beds</span>
+                  <span><i class="fa-solid fa-bath"></i> 4 Baths</span>
+                  <span><i class="fa-solid fa-toilet"></i> 5 Toilets</span>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- about -->
+      <section class="about section" id="about">
+        <div class="container about-container">
+          <div class="about-image">
+            <img src="images/home.jpg" alt="Beautiful modern home" />
+          </div>
+
+          <div class="about-content">
+            <span class="section-label">About Ample Homes</span>
+
+            <h2>
+              More Than Just a House.
+              <span>It's Your Space.</span>
+            </h2>
+
+            <p>
+              At Ample Homes, we believe finding a home should be simple,
+              transparent and enjoyable. We connect clients with quality
+              properties in locations that offer comfort, convenience and
+              long-term value.
+            </p>
+
+            <p>
+              Whether you're looking for your next home or a property
+              investment, we're here to help you find a space that fits your
+              needs.
+            </p>
+
+            <a href="#contact" class="text-btn">
+              Learn More
+              <i class="fa-solid fa-arrow-right"></i>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- why us -->
+      <section class="why-us section">
+        <div class="container">
+          <div class="section-heading centered">
+            <span class="section-label">Why Ample Homes</span>
+
+            <h2>
+              A Better Way to Find
+              <span>Your Next Property</span>
+            </h2>
+
+            <p>
+              We make the property search process easier from discovery to
+              getting the keys.
+            </p>
+          </div>
+
+          <div class="features">
+            <div class="feature">
+              <div class="feature-icon">
+                <i class="fa-solid fa-house"></i>
+              </div>
+
+              <h3>Quality Properties</h3>
+
+              <p>
+                Carefully selected properties that meet our standards for
+                comfort and value.
+              </p>
+            </div>
+
+            <div class="feature">
+              <div class="feature-icon">
+                <i class="fa-solid fa-location-dot"></i>
+              </div>
+
+              <h3>Prime Locations</h3>
+
+              <p>Discover properties in desirable and convenient locations.</p>
+            </div>
+
+            <div class="feature">
+              <div class="feature-icon">
+                <i class="fa-solid fa-handshake"></i>
+              </div>
+
+              <h3>Trusted Service</h3>
+
+              <p>
+                We guide you through the process with clarity and
+                professionalism.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- contact -->
+      <section class="contact section" id="contact">
+        <div class="container contact-container">
+          <div class="contact-intro">
+            <span class="section-label">Get in Touch</span>
+
+            <h2>
+              Let's Find Your
+              <span>Perfect Space.</span>
+            </h2>
+
+            <p>
+              Have a property in mind or simply want to know what's available?
+              Get in touch with our team and let's talk.
+            </p>
+
+            <div class="social-links">
+              <a href="#" aria-label="Instagram">
+                <i class="fa-brands fa-instagram"></i>
+              </a>
+
+              <a href="#" aria-label="Facebook">
+                <i class="fa-brands fa-facebook-f"></i>
+              </a>
+
+              <a href="#" aria-label="TikTok">
+                <i class="fa-brands fa-tiktok"></i>
+              </a>
+            </div>
+          </div>
+
+          <div class="contact-info">
+            <div class="contact-item">
+              <div class="contact-icon">
+                <i class="fa-solid fa-location-dot"></i>
+              </div>
+
+              <div>
+                <span>Visit Us</span>
+                <p>Plot 395 Augustus Aikhomu Way Utako, Abuja, Nigeria</p>
+              </div>
+            </div>
+
+            <div class="contact-item">
+              <div class="contact-icon">
+                <i class="fa-solid fa-phone"></i>
+              </div>
+
+              <div>
+                <span>Call Us</span>
+                <p>+234 816 266 3364</p>
+                <p>+234 805 271 2623</p>
+              </div>
+            </div>
+
+            <div class="contact-item">
+              <div class="contact-icon">
+                <i class="fa-solid fa-envelope"></i>
+              </div>
+
+              <div>
+                <span>Email Us</span>
+                <p>hussain.muhammad@ample.ng</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- photo modal -->
+    <div class="photo-modal" id="photoModal">
+      <div class="modal-content">
+        <button class="modal-close" id="modalClose">
+          <i class="fa-solid fa-xmark"></i>
+        </button>
+
+        <button class="modal-arrow prev" id="prevBtn">
+          <i class="fa-solid fa-chevron-left"></i>
+        </button>
+
+        <img id="modalImage" src="" alt="Property photo" />
+
+        <button class="modal-arrow next" id="nextBtn">
+          <i class="fa-solid fa-chevron-right"></i>
+        </button>
+
+        <div class="modal-info">
+          <h3 id="modalTitle"></h3>
+          <p id="modalLocation"></p>
+        </div>
+      </div>
+    </div>
+
+    <!-- footer -->
+    <footer class="footer">
+      <div class="container footer-container">
+        <a href="#home" class="logo">
+          <img src="images/logo2.png" alt="Ample Homes" />
+        </a>
+
+        <p>Finding spaces that feel like home.</p>
+
+        <div class="footer-links">
+          <a href="#home">Home</a>
+          <a href="#properties">Properties</a>
+          <a href="#about">About</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </div>
+
+      <div class="copyright">
+        <div class="container">
+          <p>© 2026 Ample Homes. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
